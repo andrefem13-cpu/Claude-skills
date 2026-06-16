@@ -1,13 +1,13 @@
------
-
-## name: em-ai-idea-lab
-description: Run Andre’s EM AI Idea Lab pipeline — a structured ideation and viability screening system for AI/tech ideas in Emergency Medicine. Trigger this skill whenever Andre drops a raw idea for an AI tool, workflow, clinical solution, or tech build related to EM, medical education, or clinical practice. Also trigger when he says things like “idea:”, “what if we built”, “shower thought”, “is this worth pursuing”, “fucks or sucks”, or “run this through the lab.” This is Andre’s primary thinking tool for clinician-dev idea development. Always use it — even for half-formed ideas — because the raw capture is part of the value.
+---
+name: em-ai-idea-lab
+description: Run Andre's EM AI Idea Lab pipeline — a structured ideation and viability screening system for AI/tech ideas in Emergency Medicine. Trigger this skill whenever Andre drops a raw idea for an AI tool, workflow, clinical solution, or tech build related to EM, medical education, or clinical practice. Also trigger when he says things like "idea:", "what if we built", "shower thought", "is this worth pursuing", "fucks or sucks", or "run this through the lab." This is Andre's primary thinking tool for clinician-dev idea development. Always use it — even for half-formed ideas — because the raw capture is part of the value.
+---
 
 # EM AI Idea Lab
 
 A structured pipeline for screening, pressure-testing, and developing AI/tech ideas in Emergency Medicine — built for Andre Freire, EM physician, educator, and clinician-developer (@BloodSweatxED).
 
------
+---
 
 ## Identity Context (Prime Before Every Run)
 
@@ -17,9 +17,9 @@ Andre operates at the intersection of three pillars:
 1. **EM educator** — teaching MS1–MS3, clinical reasoning, deliberate practice
 1. **Clinician-developer** — building AI/tech solutions that emerge from real clinical pain
 
-Every idea gets evaluated through this lens. The filter is not “is this a good AI idea” — it’s “does this emerge from real clinical reality and does building it mean something.”
+Every idea gets evaluated through this lens. The filter is not "is this a good AI idea" — it's "does this emerge from real clinical reality and does building it mean something."
 
------
+---
 
 ## Pipeline Overview
 
@@ -31,15 +31,15 @@ RAW IDEA → [CAPTURE] → [SCREEN] → fucks (≥7) or sucks (<7)
                                   [OBSIDIAN NOTE]      [OBSIDIAN NOTE]
 ```
 
------
+---
 
 ## Stage 0: Raw Capture
 
-Before any analysis, capture the idea **exactly as Andre said it** — unfiltered, unpolished. This is sacred. The raw framing often contains the most honest signal about what’s actually being solved.
+Before any analysis, capture the idea **exactly as Andre said it** — unfiltered, unpolished. This is sacred. The raw framing often contains the most honest signal about what's actually being solved.
 
 > Output: Blockquote of the verbatim idea.
 
------
+---
 
 ## Stage 1: The Screen (Fucks or Sucks)
 
@@ -47,7 +47,7 @@ Score each criterion 1–2 points. Total out of 10.
 
 |#|Criterion           |Guiding Question                                                                                                 |Score|
 |-|--------------------|-----------------------------------------------------------------------------------------------------------------|-----|
-|1|**Clinical Reality**|Is this a recognized pain point — not just Andre’s pet peeve, but something EM docs broadly feel?                |/2   |
+|1|**Clinical Reality**|Is this a recognized pain point — not just Andre's pet peeve, but something EM docs broadly feel?                |/2   |
 |2|**Scope Ceiling**   |Does EM serve as a natural entry point with cross-specialty potential? Or is it permanently niche?               |/2   |
 |3|**Buildable Now**   |Can this be built with current AI capabilities — not a 2027 idea?                                                |/2   |
 |4|**Field Scan**      |White space, or crowded field? If crowded, is there a differentiated angle?                                      |/2   |
@@ -58,9 +58,9 @@ Score each criterion 1–2 points. Total out of 10.
 - **≥7 → IT FUCKS** → Proceed to Stage 2
 - **<7 → IT SUCKS** → Proceed to Stage 3
 
-Give a 2–3 sentence plain-language rationale for the score. Don’t hedge — be direct.
+Give a 2–3 sentence plain-language rationale for the score. Don't hedge — be direct.
 
------
+---
 
 ## Stage 2: Build It Out (Fucks Framework)
 
@@ -70,7 +70,7 @@ Work through each section. Be substantive — this is the foundation for an Obsi
 
 - What is the exact clinical or workflow pain being solved?
 - Who feels it, when, and how often?
-- What’s the current workaround (if any)?
+- What's the current workaround (if any)?
 
 ### 2.2 Target User
 
@@ -86,8 +86,8 @@ Work through each section. Be substantive — this is the foundation for an Obsi
 
 ### 2.4 Scope & Expansion Path
 
-- What’s the minimum viable version (the thing you could build in a weekend)?
-- What’s the expanded version (the thing worth publishing or spinning up)?
+- What's the minimum viable version (the thing you could build in a weekend)?
+- What's the expanded version (the thing worth publishing or spinning up)?
 - What specialties or settings could this expand into?
 
 ### 2.5 Adjacent Ideas & Pivots
@@ -105,27 +105,27 @@ Work through each section. Be substantive — this is the foundation for an Obsi
 
 - The single most important next step (not a list — one thing)
 
------
+---
 
 ## Stage 3: Autopsy (Sucks Framework)
 
-Don’t just kill the idea — extract the signal.
+Don't just kill the idea — extract the signal.
 
 ### 3.1 Why It Sucks
 
 - Which criteria dragged the score down?
-- Is this a timing problem, a scope problem, a technical problem, or a “already exists” problem?
+- Is this a timing problem, a scope problem, a technical problem, or a "already exists" problem?
 
 ### 3.2 What Would Need to Be True
 
-- What would have to change — in technology, in medicine, in Andre’s positioning — for this idea to work?
+- What would have to change — in technology, in medicine, in Andre's positioning — for this idea to work?
 
 ### 3.3 Salvage Angle
 
 - Is there a smaller, adjacent, or reframed version worth keeping?
 - Tag it: **kill entirely** vs **revisit in [timeframe]** vs **pivot to [related idea]**
 
------
+---
 
 ## Obsidian Note Output
 
@@ -175,7 +175,7 @@ date: [today]
 ```markdown
 ---
 title: [Idea Name]
-tags: [em-ai, clinician-dev, idea-graveyard]
+tags: [em-ai, clinician-dev, graveyard]
 status: [kill / revisit / pivot]
 score: [X/10]
 date: [today]
@@ -197,7 +197,7 @@ date: [today]
 [from 3.3]
 ```
 
------
+---
 
 ## Tone & Style Notes
 
@@ -205,4 +205,4 @@ date: [today]
 - Use plain language — no buzzword inflation.
 - The screen should feel like a hallway consult with a trusted colleague, not a pitch deck review.
 - The build-out should feel like the start of something real, not a thought experiment.
-- If an idea is genuinely exciting, say so. If it’s weak, say that too.
+- If an idea is genuinely exciting, say so. If it's weak, say that too.
