@@ -17,6 +17,28 @@ Skills live at `.claude/skills/[skill-name]/SKILL.md`. Each skill is a markdown 
 | `reminders` | `/reminders` | Bridges Apple Reminders → Claude: reads the Claude Inbox list and dispatches background agents for new tasks |
 | `skill-builder` | `/skill-builder` | Interactive wizard for creating new Claude skills and writing valid SKILL.md files |
 
+### Personal Skills (Claude.ai)
+
+Skills synced from your Claude.ai personal skills library.
+
+| Skill | Command | Description |
+|-------|---------|-------------|
+| `plain-writing` | `/plain-writing` | Rewrites drafts in plain, direct prose — no filler, no jargon |
+| `board-review` | `/board-review` | Structured board-style review of a document, plan, or proposal |
+| `addproject` | `/addproject` | Adds a new project to your workspace with scaffolding and context |
+| `canvas-design` | `/canvas-design` | Builds interactive HTML canvas artifacts and visual designs |
+| `learn` | `/learn` | Interactive learning sessions — explains concepts, drills, and quizzes |
+| `mcp-builder` | `/mcp-builder` | Builds and configures MCP (Model Context Protocol) servers |
+| `skill-creator` | `/skill-creator` | Creates new Claude skills from scratch with guided prompts |
+| `web-artifacts-builder` | `/web-artifacts-builder` | Builds interactive web artifacts (HTML/CSS/JS) |
+| `consolidate-memory` | `/consolidate-memory` | Consolidates and deduplicates your Claude memory files |
+| `setup-cowork` | `/setup-cowork` | Sets up a coworking session with project context and structure |
+| `schedule` | `/schedule` | Creates and manages scheduled cloud agents on a cron schedule |
+| `docx` | `/docx` | Generates and exports Word (.docx) documents |
+| `pdf` | `/pdf` | Generates and exports PDF documents |
+| `pptx` | `/pptx` | Generates and exports PowerPoint (.pptx) presentations |
+| `xlsx` | `/xlsx` | Generates and exports Excel (.xlsx) spreadsheets |
+
 ### Printing Press (Third-Party — mvanhorn)
 
 CLI generator toolkit from [github.com/mvanhorn/cli-printing-press](https://github.com/mvanhorn/cli-printing-press). Generates production-ready Go CLIs for any API.
