@@ -127,7 +127,7 @@ Building Obsidian plugin for EM shift tracking. UI framework set up (React + Typ
 - `main.ts` with plugin lifecycle hooks (onload, onunload)
 - `ui/Modal.tsx` — partial (modal opens but positioning broken)
 - `types/shift.ts` — Shift interface defined
-- GitHub: https://github.com/andrefem13-cpu/obsidian-shift-tracker/tree/feature/ui-components
+- GitHub: https://github.com/BloodSweatxED/obsidian-shift-tracker/tree/feature/ui-components
 
 ## Open Questions
 - Should modal be floating or dock-based? (Andre leans floating)
